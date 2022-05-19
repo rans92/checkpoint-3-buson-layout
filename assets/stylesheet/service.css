@@ -155,7 +155,7 @@ rgb(34,34,34) (footer icon bg color)
     width: 100%;
     height: 300px;
 }
-.header-hero{
+.header-hero h1{
     color: rgb(255,255,255);
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
@@ -195,6 +195,108 @@ rgb(34,34,34) (footer icon bg color)
 /* page main content styles */
 
 
+/* service section style */
+
+.services{
+    height: 90vh;
+    text-align: center;
+}
+.hero-heading{
+    color: rgb(25,29,52);
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+.service-box{
+    padding: 50px;
+}
+.service-box img{
+    margin-top: 100px;
+}
+.service-box h2{
+    color: rgb(25,29,52);
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 32px 0;
+}
+.service-box p{
+    color: rgb(134,140,152);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+}
+.more-ser-btn{
+    margin-top: 150px;
+}
+.more-ser-btn a{
+    color: rgb(229,94,107);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 18px 32px;
+    border: solid 1px rgb(229,94,107);
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* recent news section styles */
+
+
+
+
+.recent-news{
+    height: 100vh;
+    text-align: center;
+}
+
+.news-heading{
+    color: rgb(25,29,52);
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 100px 0;
+}
+
+.recent-box{
+    padding: 32px;
+}
+
+.recent-box h2{
+    margin: 24px 0;
+    color: rgb(229,94,107);
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-left: 32px;
+}
+
+
+.descrp{
+    color: rgb(25,29,52);
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+
+
+.box-date{
+    color: rgb(134,140,152);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 32px;
+}
 
 
 
@@ -286,7 +388,7 @@ rgb(34,34,34) (footer icon bg color)
 
 
 .footer{
-    height: 700px;
+    height: 500px;
 }
 .foot-logo-link{
     width: 35%;
@@ -357,4 +459,28 @@ rgb(34,34,34) (footer icon bg color)
     font-weight: 500;
     margin-top: 24px;
     display: block;
+}
+
+.footer-line{
+    height: 1px;
+    background-color: rgb(87, 182, 236);
+    margin-top: 40px;
+}
+.foot-after-line{
+    text-align: center;
+}
+.foot-after-line p{
+    margin-top: 22px;
+    font-size: 14px;
+    color: rgb(134,140,152);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.foot-after-line p i{
+    color: rgb(229,94,107);
+    font-size: 24px;
+}
+.foot-after-line p q{
+    color: rgb(229,94,107);
+    font-size: 16px;
 }
