@@ -201,7 +201,7 @@ rgb(34,34,34) (footer icon bg color)
 .map-address{
     width: 100%;
     height: 550px;
-    box-shadow: 5px 10px 8px 10px #888888;
+    box-shadow: 5px 10px 8px 10px rgb(167, 164, 164);
 }
 
 /* detail box section  */
